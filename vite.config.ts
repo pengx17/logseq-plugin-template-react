@@ -9,4 +9,5 @@ export default defineConfig({
     reactRefresh(),
     WindiCSS(),
   ],
+  base: ''
 });

@@ -21,7 +21,7 @@ function main() {
     <React.StrictMode>
       <App />
     </React.StrictMode>,
-    document.getElementById("root")
+    document.getElementById("app")
   );
 
   const key = logseq.baseInfo.id;

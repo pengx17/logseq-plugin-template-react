@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 const useAppVisible = () => {
   const [visible, setVisible] = useState(logseq.isMainUIVisible);
@@ -14,7 +14,7 @@ function App() {
   if (visible) {
     return (
       <main
-        className="backdrop-blur-md top-0 bottom-0 left-0 right-0 fixed"
+        className="backdrop-filter backdrop-blur-md top-0 bottom-0 left-0 right-0 fixed"
         onClick={(e) => {
           if (!innerRef.current?.contains(e.target as any)) {
             window.logseq.hideMainUI();
