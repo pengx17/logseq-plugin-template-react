@@ -2,9 +2,16 @@ import React, { useRef, useState } from "react";
 
 const useAppVisible = () => {
   const [visible, setVisible] = useState(logseq.isMainUIVisible);
-  logseq.on("ui:visible:changed", async ({ visible }) => {
-    setVisible(visible);
-  });
+  React.useEffect(() => {
+    const eventName = "ui:visible:changed";
+    const handler = async ({ visible }: any) => {
+      setVisible(visible);
+    };
+    logseq.on(eventName, handler);
+    return () => {
+      logseq.off(eventName, handler);
+    };
+  }, []);
   return visible;
 };
 
