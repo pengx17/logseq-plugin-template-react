@@ -14,14 +14,16 @@ function App() {
   if (visible) {
     return (
       <main
-        className="backdrop-filter backdrop-blur-md top-0 bottom-0 left-0 right-0 fixed"
+        className="backdrop-filter backdrop-blur-md top-0 bottom-0 left-0 right-0 fixed flex items-center justify-center"
         onClick={(e) => {
           if (!innerRef.current?.contains(e.target as any)) {
             window.logseq.hideMainUI();
           }
         }}
       >
-        <div ref={innerRef} />
+        <div ref={innerRef} className="text-size-2em">
+          Welcome to Logseq Plugins!
+        </div>
       </main>
     );
   }

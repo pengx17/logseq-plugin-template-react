@@ -4,8 +4,7 @@
   "main": "dist/index.html",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "build": "tsc && vite build"
   },
   "license": "MIT",
   "dependencies": {
@@ -23,6 +22,7 @@
     "windicss": "^3.0.9"
   },
   "logseq": {
-    "id": "_yourid"
+    "id": "_yourid",
+    "icon": "./logo.svg"
   }
 }
