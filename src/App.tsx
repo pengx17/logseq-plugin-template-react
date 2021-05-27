@@ -6,7 +6,7 @@ function App() {
   const visible = useAppVisible();
   if (visible) {
     return (
-      <main        
+      <main
         className="backdrop-filter backdrop-blur-md fixed inset-0 flex items-center justify-center"
         onClick={(e) => {
           if (!innerRef.current?.contains(e.target as any)) {

@@ -2,7 +2,7 @@ import { defineConfig, Plugin, ResolvedConfig } from "vite";
 import reactRefresh from "@vitejs/plugin-react-refresh";
 import WindiCSS from "vite-plugin-windicss";
 // @ts-expect-error
-import { writeFile } from "fs/promises";
+import { writeFile, mkdir } from "fs/promises";
 import path from "path";
 
 // Hard-coded for now
@@ -44,6 +44,7 @@ const devIndexHtmlPlugin: () => Plugin = () => {
         </body>
       </html>
       `;
+      await mkdir(config.build.outDir, { recursive: true });
       await writeFile(
         path.resolve(config.build.outDir, "index.html"),
         template,

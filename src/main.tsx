@@ -8,15 +8,9 @@ import App from "./App";
 // @ts-expect-error
 const css = (t, ...args) => String.raw(t, ...args);
 
-function createModel() {
-  return {
-    show() {
-      logseq.showMainUI();
-    },
-  };
-}
-
 function main() {
+  const pluginId = logseq.baseInfo.id;
+  console.info(`#${pluginId}: MAIN`);
   ReactDOM.render(
     <React.StrictMode>
       <App />
@@ -24,8 +18,15 @@ function main() {
     document.getElementById("app")
   );
 
-  const key = logseq.baseInfo.id;
+  function createModel() {
+    return {
+      show() {
+        logseq.showMainUI();
+      },
+    };
+  }
 
+  logseq.provideModel(createModel());
   logseq.setMainUIInlineStyle({
     zIndex: 11,
   });
@@ -33,7 +34,7 @@ function main() {
   const openIconName = "template-plugin-open";
 
   logseq.provideStyle(css`
-    div[data-injected-ui=${openIconName}-${key}] {
+    div[data-injected-ui=${openIconName}-${pluginId}] {
       display: inline-flex;
       align-items: center;
       opacity: 0.55;
@@ -42,7 +43,7 @@ function main() {
       position: relative;
     }
 
-    div[data-injected-ui=${openIconName}-${key}]:hover {
+    div[data-injected-ui=${openIconName}-${pluginId}]:hover {
       opacity: 0.9;
     }
   `);
@@ -57,4 +58,4 @@ function main() {
   });
 }
 
-logseq.ready(createModel()).then(main).catch(console.error);
+logseq.ready(main).catch(console.error);
