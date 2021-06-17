@@ -5,8 +5,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
+import { logseq as PL } from '../package.json';
+
 // @ts-expect-error
 const css = (t, ...args) => String.raw(t, ...args);
+const magicKey = `__${PL.id}__loaded__`;
 
 function main() {
   const pluginId = logseq.baseInfo.id;
@@ -33,6 +36,9 @@ function main() {
 
   const openIconName = "template-plugin-open";
 
+  // @ts-expect-error
+  top[magicKey] = true;
+
   logseq.provideStyle(css`
     div[data-injected-ui=${openIconName}-${pluginId}] {
       display: inline-flex;
@@ -56,6 +62,11 @@ function main() {
          style="opacity: .6; display: inline-flex;">⚙️</a>
     `,
   });
+}
+
+// @ts-expect-error
+if (top[magicKey]) {
+  top.location.reload();
 }
 
 logseq.ready(main).catch(console.error);
