@@ -332,15 +332,24 @@
     "@rollup/pluginutils" "^4.1.0"
     react-refresh "^0.10.0"
 
-"@windicss/plugin-utils@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.2.0.tgz#f9c657f981d7696dfa6b8e8069b311161a2ac9b4"
-  integrity sha512-6OAsyz2yI0VKNHACT35FjWWzMZlMEF7Z0pIiNUd9+R9jc73+qJcK1DRCZ3YxnjuGk0G76b542uXQEJgv2jL3vA==
+"@windicss/config@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.2.2.tgz#421d665c82845825190a55849b9f79ae17738e01"
+  integrity sha512-gPELusBwoBfopsJX1h/eh8WyGeuqX23mhBbAAJCtbL7FKh0pawGxqsVz9u+AoEYH9PkDh5fy9ZyjudETUEdSWQ==
+  dependencies:
+    debug "^4.3.2"
+    jiti "^1.10.1"
+    windicss "^3.1.3"
+
+"@windicss/plugin-utils@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.2.2.tgz#bc3e8deab9dcd067e1d23d183f39b2fd0a84804f"
+  integrity sha512-s6D+IjwYrFp8/DpxEfwo+QtHVb2ondCYGrJbWg39YEL/VStIbX619TlcYFaDzcmW1YG8Ku5+7Gmmf1wMb1iADA==
   dependencies:
     "@antfu/utils" "^0.2.3"
+    "@windicss/config" "1.2.2"
     debug "^4.3.2"
     fast-glob "^3.2.5"
-    jiti "^1.10.1"
     magic-string "^0.25.7"
     micromatch "^4.0.4"
     windicss "^3.1.3"
@@ -1062,12 +1071,12 @@ util@^0.10.3:
   dependencies:
     inherits "2.0.3"
 
-vite-plugin-windicss@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.2.0.tgz#6b21e76f3aae1cd2f71c548c4bfe8d87b4328ad0"
-  integrity sha512-3teAmQHCDDDcy7On5fOj1sYTRVo8zAwJJd4SOapeGI7EuEzO2fHy6oDS6sPXVUnstbfoPbvrng1xvc3VAqI+sg==
+vite-plugin-windicss@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.2.2.tgz#b83400523e5e3ba43bcd15ccc7a5d10ea545bead"
+  integrity sha512-1i2RvBFDF4p2rgamAFhTrx3twOsWfcbQT/n4nemGgk35ffs4OtuFe/pTXb6+KxlLKP38Lq1J5IU/XZaAfd2zKQ==
   dependencies:
-    "@windicss/plugin-utils" "1.2.0"
+    "@windicss/plugin-utils" "1.2.2"
     chalk "^4.1.1"
     debug "^4.3.2"
     windicss "^3.1.3"
