@@ -20,7 +20,7 @@
     "typescript": "4.3.5",
     "vite": "2.4.3",
     "vite-plugin-windicss": "1.2.6",
-    "windicss": "3.1.5"
+    "windicss": "3.1.6"
   },
   "logseq": {
     "id": "_pengx17-logseq-template-react",
