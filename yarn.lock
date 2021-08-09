@@ -1134,7 +1134,12 @@ vite@2.4.4:
   optionalDependencies:
     fsevents "~2.3.2"
 
-windicss@3.1.6, windicss@^3.1.6:
+windicss@3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.1.7.tgz#8a3b8a07ed97c2c1354a6e31820d8059da35f724"
+  integrity sha512-Q/HQ9j+r2R0fdt85zAjccdo11kHWzQmpkuwIUQIO6PSypyDmBTfN14aAy4szLrpgo2woyuHM7Y+kir4IG4qnKQ==
+
+windicss@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.1.6.tgz#237f24be8b38f90f451eedda166c46c25227c608"
   integrity sha512-9/ShTPRs2pg/AJo4PtbgDv9p7BUgR52WqL7Gpr8VSO6LH8z4I/oKamUAlSXqyLsWD6yKS+xtxF3FRiHVJwYcuQ==
