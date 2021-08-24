@@ -374,27 +374,27 @@
     "@rollup/pluginutils" "^4.1.1"
     react-refresh "^0.10.0"
 
-"@windicss/config@1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.2.7.tgz#c70bde7de272574f7a33eb9a1d7f80bdbffe48ba"
-  integrity sha512-XpH/dkXWk2LGygHzHBWWEW/yGcLqhpFFN2jo+zMeWZ1ggBzndQQzBHqHGQHcr6U6v3PoBuOz1prVWgUmQxn9eQ==
+"@windicss/config@1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.2.8.tgz#27863e4527f6bbddc46a4df486d6a8fcb9e6f144"
+  integrity sha512-v9vyIiG8GYUTYo874ExlVu1i6vlsWo4RFZWiDGfPKdN7GBRCcJcEV+X+j3AZPPIsx5JvD5TXQlDvkbYIqYWYbQ==
   dependencies:
     debug "^4.3.2"
     jiti "^1.11.0"
-    windicss "^3.1.6"
+    windicss "^3.1.7"
 
-"@windicss/plugin-utils@1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.2.7.tgz#aa2c571f66600ce2c916c9c47efe8eafb229908c"
-  integrity sha512-aNQhd1nEjkVsCHmzq0+4VGTmovOGGfPnH2hspH4YuDxMDhQ/99VrBdyk7irngWJjedjHB3+UYCSYWpY5a+2Hbg==
+"@windicss/plugin-utils@1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.2.8.tgz#7227c68a806d773688eeb8f0b6b0a11db8bd5f45"
+  integrity sha512-JwnFMJMCX/+Re4iItozvbWC3yz/7WJNOJJkgDKQ9X5Ran1sfNjx9m3LCijsYLf0MULCplZJIh/HzdxjxZMNFUA==
   dependencies:
     "@antfu/utils" "^0.2.4"
-    "@windicss/config" "1.2.7"
+    "@windicss/config" "1.2.8"
     debug "^4.3.2"
     fast-glob "^3.2.7"
     magic-string "^0.25.7"
     micromatch "^4.0.4"
-    windicss "^3.1.6"
+    windicss "^3.1.7"
 
 "@xobotyi/scrollbar-width@^1.9.5":
   version "1.9.5"
@@ -447,10 +447,10 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
-  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -1112,15 +1112,15 @@ util@^0.10.3:
   dependencies:
     inherits "2.0.3"
 
-vite-plugin-windicss@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.2.7.tgz#92671ec795ab1a8a4e520aff8117ac14c04d312f"
-  integrity sha512-JgIGsH5HPaz3ghDRhhLeF8VZQMUE+R0jD9u8sbne5KdBBa208r0IuTcx73V7CPcmsu7KABG6rfLgST9ffVoiDA==
+vite-plugin-windicss@1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.2.8.tgz#036f3430eeae20d024be205d70bcbf9b2f43991b"
+  integrity sha512-KLoFfsEh5RAyw2OjW+lrIdgkRAMa9KM1sKPYf8pYgVIj4PL6xBbJlbvWOZnZdW1rFjLtF3KzPT35HEmj6MV8XQ==
   dependencies:
-    "@windicss/plugin-utils" "1.2.7"
-    chalk "^4.1.1"
+    "@windicss/plugin-utils" "1.2.8"
+    chalk "^4.1.2"
     debug "^4.3.2"
-    windicss "^3.1.6"
+    windicss "^3.1.7"
 
 vite@2.5.0:
   version "2.5.0"
@@ -1134,12 +1134,7 @@ vite@2.5.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-windicss@3.1.7:
+windicss@3.1.7, windicss@^3.1.7:
   version "3.1.7"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.1.7.tgz#8a3b8a07ed97c2c1354a6e31820d8059da35f724"
   integrity sha512-Q/HQ9j+r2R0fdt85zAjccdo11kHWzQmpkuwIUQIO6PSypyDmBTfN14aAy4szLrpgo2woyuHM7Y+kir4IG4qnKQ==
-
-windicss@^3.1.6:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.1.6.tgz#237f24be8b38f90f451eedda166c46c25227c608"
-  integrity sha512-9/ShTPRs2pg/AJo4PtbgDv9p7BUgR52WqL7Gpr8VSO6LH8z4I/oKamUAlSXqyLsWD6yKS+xtxF3FRiHVJwYcuQ==
