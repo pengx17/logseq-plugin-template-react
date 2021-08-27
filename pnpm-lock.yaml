@@ -1,12 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@logseq/libs': ^0.0.1-alpha.19
+  '@logseq/libs': ^0.0.1-alpha.26
   '@types/react': 17.0.19
   '@types/react-dom': 17.0.9
   '@vitejs/plugin-react-refresh': 1.3.6
-  react: ^17.0.0
-  react-dom: ^17.0.0
+  react: ^17.0.2
+  react-dom: ^17.0.2
   react-use: ^17.2.4
   typescript: 4.4.2
   vite: 2.5.1
@@ -459,9 +459,9 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001251
+      caniuse-lite: 1.0.30001252
       colorette: 1.3.0
-      electron-to-chromium: 1.3.816
+      electron-to-chromium: 1.3.820
       escalade: 3.1.1
       node-releases: 1.1.75
     dev: true
@@ -471,8 +471,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /caniuse-lite/1.0.30001251:
-    resolution: {integrity: sha512-HOe1r+9VkU4TFmnU70z+r7OLmtR+/chB1rdcJUeQlAinjEeb0cKL20tlAtOagNZhbrtLnCvV19B4FmF1rgzl6A==}
+  /caniuse-lite/1.0.30001252:
+    resolution: {integrity: sha512-I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==}
     dev: true
 
   /chalk/2.4.2:
@@ -609,8 +609,8 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /electron-to-chromium/1.3.816:
-    resolution: {integrity: sha512-/AvJPIJldO0NkwkfpUD7u1e4YEGRFBQpFuvl9oGCcVgWOObsZB1loxVGeVUJB9kmvfsBUUChPYdgRzx6+AKNyg==}
+  /electron-to-chromium/1.3.820:
+    resolution: {integrity: sha512-5cFwDmo2yzEA9hn55KZ9+cX/b6DSFvpKz8Hb2fiDmriXWB+DBoXKXmncQwNRFBBTlUdsvPHCoy594OoMLAO0Tg==}
     dev: true
 
   /error-stack-parser/2.0.6:
@@ -619,8 +619,8 @@ packages:
       stackframe: 1.2.0
     dev: false
 
-  /esbuild/0.12.22:
-    resolution: {integrity: sha512-yWCr9RoFehpqoe/+MwZXJpYOEIt7KOEvNnjIeMZpMSyQt+KCBASM3y7yViiN5dJRphf1wGdUz1+M4rTtWd/ulA==}
+  /esbuild/0.12.23:
+    resolution: {integrity: sha512-qvS4aKnmKikoWGscd5lVAzgobMovlH/JhaWitRiQ8xJx0x1Fym0pqVjMFs43Nvff8WpibeWm+fWoLK88T1U0Xw==}
     hasBin: true
     requiresBuild: true
     dev: true
@@ -732,7 +732,7 @@ packages:
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
-      inherits: 2.0.3
+      inherits: 2.0.4
       minimatch: 3.0.4
       once: 1.4.0
       path-is-absolute: 1.0.1
@@ -809,6 +809,11 @@ packages:
 
   /inherits/2.0.3:
     resolution: {integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=}
+    dev: false
+
+  /inherits/2.0.4:
+    resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+    dev: true
 
   /inline-style-prefixer/6.0.0:
     resolution: {integrity: sha512-XTHvRUS4ZJNzC1GixJRmOlWSS45fSt+DJoyQC9ytj0WxQfcgofQtDtyKKYxHUqEsWCs+LIWftPF1ie7+i012Fg==}
@@ -1421,7 +1426,7 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.2
       debug: 4.3.2
-      esbuild: 0.12.22
+      esbuild: 0.12.23
       execa: 5.1.1
       globby: 11.0.4
       joycon: 3.0.1
@@ -1469,7 +1474,7 @@ packages:
     engines: {node: '>=12.2.0'}
     hasBin: true
     dependencies:
-      esbuild: 0.12.22
+      esbuild: 0.12.23
       postcss: 8.3.6
       resolve: 1.20.0
       rollup: 2.56.3

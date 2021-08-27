@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "^0.0.1-alpha.19",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "@logseq/libs": "^0.0.1-alpha.26",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-use": "^17.2.4"
   },
   "devDependencies": {
