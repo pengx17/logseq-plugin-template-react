@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import { logseq as PL } from '../package.json';
+import { logseq as PL } from "../package.json";
 
 // @ts-expect-error
 const css = (t, ...args) => String.raw(t, ...args);
@@ -66,7 +66,7 @@ function main() {
 
 // @ts-expect-error
 if (top[magicKey]) {
-  top.location.reload();
+  logseq.App.relaunch().then(main).catch(console.error);
+} else {
+  logseq.ready(main).catch(console.error);
 }
-
-logseq.ready(main).catch(console.error);
