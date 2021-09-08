@@ -20,7 +20,7 @@ specifiers:
   react-use: ^17.3.1
   semantic-release: 17.4.7
   typescript: 4.4.2
-  vite: 2.5.5
+  vite: 2.5.6
   vite-plugin-windicss: 1.4.2
   windicss: 3.1.7
 
@@ -46,8 +46,8 @@ devDependencies:
   eslint-plugin-react: 7.25.1_eslint@7.32.0
   semantic-release: 17.4.7
   typescript: 4.4.2
-  vite: 2.5.5
-  vite-plugin-windicss: 1.4.2_typescript@4.4.2+vite@2.5.5
+  vite: 2.5.6
+  vite-plugin-windicss: 1.4.2_typescript@4.4.2+vite@2.5.6
   windicss: 3.1.7
 
 packages:
@@ -1326,13 +1326,6 @@ packages:
 
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
-    dev: true
-
-  /define-properties/1.1.3:
-    resolution: {integrity: sha512-3MqfYKj2lLzdMSf8ZIZE/V+Zuy+BgD6f164e8K2w7dgnpKArBDerGYpM46IYYcjnkdPNMjPk9A6VFB8+3SKlXQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      object-keys: 1.1.1
     dev: true
 
   /define-properties/1.1.3:
@@ -3965,7 +3958,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-windicss/1.4.2_typescript@4.4.2+vite@2.5.5:
+  /vite-plugin-windicss/1.4.2_typescript@4.4.2+vite@2.5.6:
     resolution: {integrity: sha512-lyjyZ7q/5CiRppKH5RrSuchE7vz4N6LWT5cJOeTsh2bCFAEuBURmIJGOtLGL7uYfmXjNRZjQIS98BV0aQ7kFDw==}
     peerDependencies:
       vite: ^2.0.1
@@ -3973,7 +3966,7 @@ packages:
       '@windicss/plugin-utils': 1.4.2_typescript@4.4.2
       chalk: 4.1.2
       debug: 4.3.2
-      vite: 2.5.5
+      vite: 2.5.6
       windicss: 3.1.7
     transitivePeerDependencies:
       - supports-color
@@ -3981,8 +3974,8 @@ packages:
       - typescript
     dev: true
 
-  /vite/2.5.5:
-    resolution: {integrity: sha512-VuPw2sS5j+JzkBQ8Mkhb5GodcGp2YcljwumzFfEraICwMVkTDvh9+noogwtFg+JIHJD5iwpcJhqWIzqIYMKc5Q==}
+  /vite/2.5.6:
+    resolution: {integrity: sha512-P++qzXuOPhTql8iDamsatlJfD7/yGi8NCNwzyqkB2p0jrNJC567WEdXiKn3hQ+ZV8amQmB2dTH6svo3Z2tJ6MQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     dependencies:
