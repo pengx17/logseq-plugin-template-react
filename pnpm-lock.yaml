@@ -14,7 +14,7 @@ specifiers:
   '@vitejs/plugin-react-refresh': 1.3.6
   conventional-changelog-conventionalcommits: 4.6.0
   eslint: 7.32.0
-  eslint-plugin-react: ^7.25.1
+  eslint-plugin-react: 7.25.1
   react: ^17.0.2
   react-dom: ^17.0.2
   react-use: ^17.3.1
@@ -1326,6 +1326,13 @@ packages:
 
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
+    dev: true
+
+  /define-properties/1.1.3:
+    resolution: {integrity: sha512-3MqfYKj2lLzdMSf8ZIZE/V+Zuy+BgD6f164e8K2w7dgnpKArBDerGYpM46IYYcjnkdPNMjPk9A6VFB8+3SKlXQ==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      object-keys: 1.1.1
     dev: true
 
   /define-properties/1.1.3:
