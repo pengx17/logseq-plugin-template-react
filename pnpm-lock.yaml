@@ -14,7 +14,7 @@ specifiers:
   '@vitejs/plugin-react-refresh': 1.3.6
   conventional-changelog-conventionalcommits: 4.6.1
   eslint: 7.32.0
-  eslint-plugin-react: 7.25.1
+  eslint-plugin-react: 7.25.2
   react: ^17.0.2
   react-dom: ^17.0.2
   react-use: ^17.3.1
@@ -43,7 +43,7 @@ devDependencies:
   '@vitejs/plugin-react-refresh': 1.3.6
   conventional-changelog-conventionalcommits: 4.6.1
   eslint: 7.32.0
-  eslint-plugin-react: 7.25.1_eslint@7.32.0
+  eslint-plugin-react: 7.25.2_eslint@7.32.0
   semantic-release: 17.4.7
   typescript: 4.4.3
   vite: 2.5.7
@@ -1501,8 +1501,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-react/7.25.1_eslint@7.32.0:
-    resolution: {integrity: sha512-P4j9K1dHoFXxDNP05AtixcJEvIT6ht8FhYKsrkY0MPCPaUMYijhpWwNiRDZVtA8KFuZOkGSeft6QwH8KuVpJug==}
+  /eslint-plugin-react/7.25.2_eslint@7.32.0:
+    resolution: {integrity: sha512-elx4585wgmryanJK4C5IoSKQyVZ+e7H0t2JOOtJNBql0cuercvSShvRReuLBbfx8687yW5yv+UL7pXwMsd6adQ==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
