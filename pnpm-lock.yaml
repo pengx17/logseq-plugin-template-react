@@ -3,8 +3,8 @@ lockfileVersion: 5.3
 specifiers:
   '@logseq/libs': ^0.0.1-alpha.28
   '@semantic-release/changelog': 5.0.1
-  '@semantic-release/exec': 5.0.0
-  '@semantic-release/git': 9.0.1
+  '@semantic-release/exec': 6.0.1
+  '@semantic-release/git': 10.0.0
   '@semantic-release/npm': 8.0.0
   '@types/node': 16.7.13
   '@types/react': 17.0.24
@@ -32,8 +32,8 @@ dependencies:
 
 devDependencies:
   '@semantic-release/changelog': 5.0.1_semantic-release@18.0.0
-  '@semantic-release/exec': 5.0.0_semantic-release@18.0.0
-  '@semantic-release/git': 9.0.1_semantic-release@18.0.0
+  '@semantic-release/exec': 6.0.1_semantic-release@18.0.0
+  '@semantic-release/git': 10.0.0_semantic-release@18.0.0
   '@semantic-release/npm': 8.0.0_semantic-release@18.0.0
   '@types/node': 16.7.13
   '@types/react': 17.0.24
@@ -522,16 +522,16 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/exec/5.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-t7LWXIvDJQbuGCy2WmMG51WyaGSLTvZBv9INvcI4S0kn+QjnnVVUMhcioIqhb0r3yqqarMzHVcABFug0q0OXjw==}
-    engines: {node: '>=10.18'}
+  /@semantic-release/exec/6.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-RlMoxuhQ7QujrykIG5uw0NU6x82BR4E7ssKsl+ISCFhFHnvxxH+w4h4klWOs/cT/XEPJdoPFbBOVoruKtAwfDg==}
+    engines: {node: '>=14.17'}
     peerDependencies:
-      semantic-release: '>=16.0.0 <18.0.0'
+      semantic-release: '>=18.0.0'
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.1.0
       debug: 4.3.2
-      execa: 4.1.0
+      execa: 5.1.1
       lodash: 4.17.21
       parse-json: 5.2.0
       semantic-release: 18.0.0
@@ -539,11 +539,11 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/git/9.0.1_semantic-release@18.0.0:
-    resolution: {integrity: sha512-75P03s9v0xfrH9ffhDVWRIX0fgWBvJMmXhUU0rMTKYz47oMXU5O95M/ocgIKnVJlWZYoC+LpIe4Ye6ev8CrlUQ==}
-    engines: {node: '>=10.18'}
+  /@semantic-release/git/10.0.0_semantic-release@18.0.0:
+    resolution: {integrity: sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==}
+    engines: {node: '>=14.17'}
     peerDependencies:
-      semantic-release: '>=16.0.0 <18.0.0'
+      semantic-release: '>=18.0.0'
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.1.0
