@@ -21,7 +21,7 @@ specifiers:
   semantic-release: 18.0.0
   typescript: 4.4.3
   vite: 2.5.10
-  vite-plugin-windicss: 1.4.6
+  vite-plugin-windicss: 1.4.7
   windicss: 3.1.7
 
 dependencies:
@@ -47,7 +47,7 @@ devDependencies:
   semantic-release: 18.0.0
   typescript: 4.4.3
   vite: 2.5.10
-  vite-plugin-windicss: 1.4.6_typescript@4.4.3+vite@2.5.10
+  vite-plugin-windicss: 1.4.7_typescript@4.4.3+vite@2.5.10
   windicss: 3.1.7
 
 packages:
@@ -813,8 +813,8 @@ packages:
       - supports-color
     dev: true
 
-  /@windicss/config/1.4.6_typescript@4.4.3:
-    resolution: {integrity: sha512-Tul+XcKl8BiOK+eaG8Iwsygd12QrdcUFZ/E96D/v/pIGbhHhTsnCDkc4fUh8a8lvzjRFcekKHv+LDhphjvZVCw==}
+  /@windicss/config/1.4.7_typescript@4.4.3:
+    resolution: {integrity: sha512-giz6b9ce5fiac/JoLQSabcwD4wbkSt07Z0+Y0Ruw5RvJ4oejq7/4qv/cmFtjbf3l+rmxh8U8/1szQMd0Zs2esg==}
     dependencies:
       debug: 4.3.2
       jiti: 1.12.3
@@ -826,11 +826,11 @@ packages:
       - typescript
     dev: true
 
-  /@windicss/plugin-utils/1.4.6_typescript@4.4.3:
-    resolution: {integrity: sha512-J5uSYoOyOwtIO1/00PhwAwMApfV06TYYOsmnmKS8ZsacmknwLEDA3hN9Ayd9HXVTZWFSNIpdx5YLJ0SMFIw+dg==}
+  /@windicss/plugin-utils/1.4.7_typescript@4.4.3:
+    resolution: {integrity: sha512-YRWQ4NHMS4/YPixoqku1+gRDRZgMHgRbx4Q0r+bLipczbbpNDPWgL4JS8F+xxbQn2wYRh7q+xqA8NIe/7T7vIA==}
     dependencies:
       '@antfu/utils': 0.3.0
-      '@windicss/config': 1.4.6_typescript@4.4.3
+      '@windicss/config': 1.4.7_typescript@4.4.3
       debug: 4.3.2
       fast-glob: 3.2.7
       magic-string: 0.25.7
@@ -3985,12 +3985,12 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-windicss/1.4.6_typescript@4.4.3+vite@2.5.10:
-    resolution: {integrity: sha512-CDFtXdNrwwETNmaUPDj6u5mT5IPOn01pM5dK1vBuX0kI+9P6alYphRBFGHAUw1ubLyDO0kjGeoM61HLb54beyQ==}
+  /vite-plugin-windicss/1.4.7_typescript@4.4.3+vite@2.5.10:
+    resolution: {integrity: sha512-m0z1CPrHKE4xrSb84f3iZICBFSznZvhvTHTv6PB3Bd0E56eDSbWNhBuV1m7Gg71wRpBeQv6oLt+tuOEZQ/+RVw==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.4.6_typescript@4.4.3
+      '@windicss/plugin-utils': 1.4.7_typescript@4.4.3
       chalk: 4.1.2
       debug: 4.3.2
       vite: 2.5.10
