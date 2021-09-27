@@ -1,5 +1,5 @@
 import { defineConfig, Plugin, ResolvedConfig } from "vite";
-import reactRefresh from "@vitejs/plugin-react-refresh";
+import reactPlugin from "@vitejs/plugin-react";
 import WindiCSS from "vite-plugin-windicss";
 import { writeFile, mkdir } from "fs/promises";
 import path from "path";
@@ -57,12 +57,9 @@ const devIndexHtmlPlugin: () => Plugin = () => {
   };
 };
 
-const reactRefreshPlugin = reactRefresh();
-const windiCSS = WindiCSS();
-
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefreshPlugin, windiCSS, devIndexHtmlPlugin()],
+  plugins: [reactPlugin(), WindiCSS(), devIndexHtmlPlugin()],
   base: "",
   clearScreen: false,
   // Makes HMR available for development
