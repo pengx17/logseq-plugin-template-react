@@ -7,7 +7,7 @@ specifiers:
   '@semantic-release/git': 10.0.0
   '@semantic-release/npm': 8.0.0
   '@types/node': 16.7.13
-  '@types/react': 17.0.24
+  '@types/react': 17.0.25
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.32.0
   '@typescript-eslint/parser': 4.32.0
@@ -36,7 +36,7 @@ devDependencies:
   '@semantic-release/git': 10.0.0_semantic-release@18.0.0
   '@semantic-release/npm': 8.0.0_semantic-release@18.0.0
   '@types/node': 16.7.13
-  '@types/react': 17.0.24
+  '@types/react': 17.0.25
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.32.0_1eacf2495a01e8a68ffa99482308e8ec
   '@typescript-eslint/parser': 4.32.0_eslint@7.32.0+typescript@4.4.3
@@ -710,6 +710,14 @@ packages:
 
   /@types/react/17.0.24:
     resolution: {integrity: sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==}
+    dependencies:
+      '@types/prop-types': 15.7.4
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.9
+    dev: true
+
+  /@types/react/17.0.25:
+    resolution: {integrity: sha512-IXrzSOr3CVbEQgmjEdCWF57J7CVaJ7lL/n4penxHm8h0XIcr0AxqGucogh2zj3qRxgk4M4JImOP/MfomkPOhvQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
