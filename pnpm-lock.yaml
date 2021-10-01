@@ -21,7 +21,7 @@ specifiers:
   semantic-release: 18.0.0
   typescript: 4.4.3
   vite: 2.6.2
-  vite-plugin-windicss: 1.4.8
+  vite-plugin-windicss: 1.4.9
   windicss: 3.1.8
 
 dependencies:
@@ -47,7 +47,7 @@ devDependencies:
   semantic-release: 18.0.0
   typescript: 4.4.3
   vite: 2.6.2
-  vite-plugin-windicss: 1.4.8_typescript@4.4.3+vite@2.6.2
+  vite-plugin-windicss: 1.4.9_typescript@4.4.3+vite@2.6.2
   windicss: 3.1.8
 
 packages:
@@ -858,11 +858,11 @@ packages:
       - supports-color
     dev: true
 
-  /@windicss/config/1.4.8_typescript@4.4.3:
-    resolution: {integrity: sha512-lZgPvK70gSSGWxSCIZzYmsxlTtJ23ZPKXh+OR9ZaAfNGczZH4G01dxfZN69iNQt4o3uXKJtVN0dZsxHEWzggqQ==}
+  /@windicss/config/1.4.9_typescript@4.4.3:
+    resolution: {integrity: sha512-DYgWKuY48Nrhi4xprdKVC2IpcLQ8j3jJ1FYgaoHKvHYZG7Ux4xaPZEYaAWEeEiGKLP7bv9VpBYdjRTKFqOMIsA==}
     dependencies:
       debug: 4.3.2
-      jiti: 1.12.3
+      jiti: 1.12.5
       tsup: 5.2.1_typescript@4.4.3
       windicss: 3.1.8
     transitivePeerDependencies:
@@ -871,11 +871,11 @@ packages:
       - typescript
     dev: true
 
-  /@windicss/plugin-utils/1.4.8_typescript@4.4.3:
-    resolution: {integrity: sha512-9tBJZi/8xxsMb9ZaxalNxo0yv6pR8/H2e/4io00qN+Oie2zOgDc54zFrr+kozgN1ISdmV15zGUXgEMdylEDC+Q==}
+  /@windicss/plugin-utils/1.4.9_typescript@4.4.3:
+    resolution: {integrity: sha512-Pie0mEH5whtI3zkWKThmgS6dxSAxQL5Be01Er/abLMVQjdoecoQT7ek2qSYOoFTtXGs7gMPUtCV/NdoL2TDgWw==}
     dependencies:
       '@antfu/utils': 0.3.0
-      '@windicss/config': 1.4.8_typescript@4.4.3
+      '@windicss/config': 1.4.9_typescript@4.4.3
       debug: 4.3.2
       fast-glob: 3.2.7
       magic-string: 0.25.7
@@ -2498,8 +2498,8 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: true
 
-  /jiti/1.12.3:
-    resolution: {integrity: sha512-p88jl9WzvZYekMS5ZOB61bJ1SPV69o7nEpAU+mFpGzXErqLEg3WvNz3jeXylAiSfLZzvqZssrAu08N3AuvaqwQ==}
+  /jiti/1.12.5:
+    resolution: {integrity: sha512-+K46njcZW6E/OPWWHImm3G1u+fYVcKU7vqc8b36oVtfi9l3moaSGtsPydaRf2gPuVxh13G1KSCVlW0DfyYUjPQ==}
     hasBin: true
     dev: true
 
@@ -4191,12 +4191,12 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-windicss/1.4.8_typescript@4.4.3+vite@2.6.2:
-    resolution: {integrity: sha512-X5lL0Cll+HAUDTaeN0pVEvzs3jZ3gY26vaZCPW/+whMsaErXY7cSV3hNzc8TrFi3GMCeWgqfRAedI2spMM1wHg==}
+  /vite-plugin-windicss/1.4.9_typescript@4.4.3+vite@2.6.2:
+    resolution: {integrity: sha512-4DxBnsQ8dvhhtR5aUgpTApxN7Auh11/9xOIW7Qdu+OuTY6tyU1NqZntVQpwArf4gNsJssgUBBCfFx1zei+rYnQ==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.4.8_typescript@4.4.3
+      '@windicss/plugin-utils': 1.4.9_typescript@4.4.3
       chalk: 4.1.2
       debug: 4.3.2
       vite: 2.6.2
