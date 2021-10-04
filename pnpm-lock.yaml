@@ -22,7 +22,7 @@ specifiers:
   typescript: 4.4.3
   vite: 2.6.2
   vite-plugin-windicss: 1.4.9
-  windicss: 3.1.8
+  windicss: 3.1.9
 
 dependencies:
   '@logseq/libs': 0.0.1-alpha.29
@@ -48,7 +48,7 @@ devDependencies:
   typescript: 4.4.3
   vite: 2.6.2
   vite-plugin-windicss: 1.4.9_typescript@4.4.3+vite@2.6.2
-  windicss: 3.1.8
+  windicss: 3.1.9
 
 packages:
 
@@ -4262,6 +4262,12 @@ packages:
 
   /windicss/3.1.8:
     resolution: {integrity: sha512-G1UfnnSZ3s4MZnqqIL8DOQbL8rBArQKlodlby8OvP333TPaRouamuIuYyCt5kSNEJzFrkx168TSRIkqhDs9bOA==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: true
+
+  /windicss/3.1.9:
+    resolution: {integrity: sha512-5YoKvXeCQXIdwc91BoOgpKbIImr2JS8I14rPMa/5dKDDPA4ot3NgICWKELkml39R/8rn4Q0BVUUTqN+w+hjDSA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
