@@ -11,7 +11,7 @@ specifiers:
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.33.0
   '@typescript-eslint/parser': 4.33.0
-  '@vitejs/plugin-react': 1.0.1
+  '@vitejs/plugin-react': 1.0.2
   conventional-changelog-conventionalcommits: 4.6.1
   eslint: 7.32.0
   eslint-plugin-react: 7.26.1
@@ -40,7 +40,7 @@ devDependencies:
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.33.0_d753869925cce96d3eb2141eeedafe57
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.4.3
-  '@vitejs/plugin-react': 1.0.1
+  '@vitejs/plugin-react': 1.0.2
   conventional-changelog-conventionalcommits: 4.6.1
   eslint: 7.32.0
   eslint-plugin-react: 7.26.1_eslint@7.32.0
@@ -842,8 +842,8 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-react/1.0.1:
-    resolution: {integrity: sha512-BJ4Wq31XtOup5ysVefXGbjIFIGPo47p7T8HxPyOsGFV8AlnodkwHEUaV+kQnj2WOqsupiyEgPahltC93yBf5sg==}
+  /@vitejs/plugin-react/1.0.2:
+    resolution: {integrity: sha512-nhB4LkAzhOy2T+8fsYuK+4DQWTueMvzfC0+MMMaX9qVvKqGQMOgz1nF3qTMl9ht9ZzhDnR++4XZmHWI/MytgeA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.15.5
