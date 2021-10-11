@@ -26,7 +26,7 @@
     "@typescript-eslint/parser": "4.33.0",
     "@vitejs/plugin-react": "1.0.2",
     "conventional-changelog-conventionalcommits": "4.6.1",
-    "eslint": "7.32.0",
+    "eslint": "8.0.0",
     "eslint-plugin-react": "7.26.1",
     "semantic-release": "18.0.0",
     "typescript": "4.4.3",
