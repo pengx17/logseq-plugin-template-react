@@ -24,7 +24,7 @@
     "@types/react-dom": "17.0.9",
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
-    "@vitejs/plugin-react": "1.0.4",
+    "@vitejs/plugin-react": "1.0.5",
     "conventional-changelog-conventionalcommits": "4.6.1",
     "eslint": "8.0.1",
     "eslint-plugin-react": "7.26.1",
