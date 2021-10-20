@@ -5,7 +5,7 @@ specifiers:
   '@semantic-release/changelog': 6.0.0
   '@semantic-release/exec': 6.0.1
   '@semantic-release/git': 10.0.0
-  '@semantic-release/npm': 8.0.1
+  '@semantic-release/npm': 8.0.2
   '@types/node': 16.7.13
   '@types/react': 17.0.30
   '@types/react-dom': 17.0.9
@@ -34,7 +34,7 @@ devDependencies:
   '@semantic-release/changelog': 6.0.0_semantic-release@18.0.0
   '@semantic-release/exec': 6.0.1_semantic-release@18.0.0
   '@semantic-release/git': 10.0.0_semantic-release@18.0.0
-  '@semantic-release/npm': 8.0.1_semantic-release@18.0.0
+  '@semantic-release/npm': 8.0.2_semantic-release@18.0.0
   '@types/node': 16.7.13
   '@types/react': 17.0.30
   '@types/react-dom': 17.0.9
@@ -620,8 +620,8 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/npm/8.0.1_semantic-release@18.0.0:
-    resolution: {integrity: sha512-7aVqKeBfsny2sFWQe6tsIH3lcWZH3JMVJQaOhMgxRiKUqNZZjdPE73bwoX+9+AdhKAnXPdgoVPsZwTotE95VIA==}
+  /@semantic-release/npm/8.0.2_semantic-release@18.0.0:
+    resolution: {integrity: sha512-ky7QczJGExZJnS8wjdhag1EV+T3u/DbcxqpBQOIZu1fcJYKsGxr2uK9guc/H2cg0yFCto5atbuZm2sZmaG5qxg==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
@@ -3422,7 +3422,7 @@ packages:
       '@semantic-release/commit-analyzer': 9.0.1_semantic-release@18.0.0
       '@semantic-release/error': 3.0.0
       '@semantic-release/github': 8.0.1_semantic-release@18.0.0
-      '@semantic-release/npm': 8.0.1_semantic-release@18.0.0
+      '@semantic-release/npm': 8.0.2_semantic-release@18.0.0
       '@semantic-release/release-notes-generator': 10.0.2_semantic-release@18.0.0
       aggregate-error: 3.1.0
       cosmiconfig: 7.0.1
