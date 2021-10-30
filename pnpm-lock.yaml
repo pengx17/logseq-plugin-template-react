@@ -2,9 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@logseq/libs': ^0.0.1-alpha.29
-  '@semantic-release/changelog': 6.0.0
-  '@semantic-release/exec': 6.0.1
-  '@semantic-release/git': 10.0.0
+  '@semantic-release/changelog': 6.0.1
+  '@semantic-release/exec': 6.0.2
+  '@semantic-release/git': 10.0.1
   '@semantic-release/npm': 8.0.2
   '@types/node': 16.11.6
   '@types/react': 17.0.33
@@ -31,9 +31,9 @@ dependencies:
   react-use: 17.3.1_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
-  '@semantic-release/changelog': 6.0.0_semantic-release@18.0.0
-  '@semantic-release/exec': 6.0.1_semantic-release@18.0.0
-  '@semantic-release/git': 10.0.0_semantic-release@18.0.0
+  '@semantic-release/changelog': 6.0.1_semantic-release@18.0.0
+  '@semantic-release/exec': 6.0.2_semantic-release@18.0.0
+  '@semantic-release/git': 10.0.1_semantic-release@18.0.0
   '@semantic-release/npm': 8.0.2_semantic-release@18.0.0
   '@types/node': 16.11.6
   '@types/react': 17.0.33
@@ -517,13 +517,13 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@semantic-release/changelog/6.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-X01Me+QVMykvILockNGlXXl3dgr1QqpbRQsknQoOJQCXQGXoqY3DNQ3rBQuI8/SUK7RZwYLctg0NbPNArlo6eQ==}
+  /@semantic-release/changelog/6.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-FT+tAGdWHr0RCM3EpWegWnvXJ05LQtBkQUaQRIExONoXjVjLuOILNm4DEKNaV+GAQyJjbLRVs57ti//GypH6PA==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 9.1.0
       lodash: 4.17.21
@@ -557,13 +557,13 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/exec/6.0.1_semantic-release@18.0.0:
-    resolution: {integrity: sha512-RlMoxuhQ7QujrykIG5uw0NU6x82BR4E7ssKsl+ISCFhFHnvxxH+w4h4klWOs/cT/XEPJdoPFbBOVoruKtAwfDg==}
+  /@semantic-release/exec/6.0.2_semantic-release@18.0.0:
+    resolution: {integrity: sha512-ciaqJTHB1TFtU6C78xrgmoNI9UyfheR9+Bk6Ico7CJ7+ADOEAvUrPBKvz64UCfoWlg+SlKGTVGbFnA509wRUVw==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       debug: 4.3.2
       execa: 5.1.1
@@ -574,13 +574,13 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/git/10.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==}
+  /@semantic-release/git/10.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       debug: 4.3.2
       dir-glob: 3.0.1

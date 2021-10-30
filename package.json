@@ -15,9 +15,9 @@
     "react-use": "^17.3.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.0",
-    "@semantic-release/exec": "6.0.1",
-    "@semantic-release/git": "10.0.0",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/exec": "6.0.2",
+    "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "8.0.2",
     "@types/node": "16.11.6",
     "@types/react": "17.0.33",
