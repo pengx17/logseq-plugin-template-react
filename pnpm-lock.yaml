@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@logseq/libs': ^0.0.1-alpha.29
   '@semantic-release/changelog': 6.0.1
-  '@semantic-release/exec': 6.0.2
+  '@semantic-release/exec': 6.0.3
   '@semantic-release/git': 10.0.1
   '@semantic-release/npm': 8.0.3
   '@types/node': 16.11.13
@@ -32,7 +32,7 @@ dependencies:
 
 devDependencies:
   '@semantic-release/changelog': 6.0.1_semantic-release@18.0.1
-  '@semantic-release/exec': 6.0.2_semantic-release@18.0.1
+  '@semantic-release/exec': 6.0.3_semantic-release@18.0.1
   '@semantic-release/git': 10.0.1_semantic-release@18.0.1
   '@semantic-release/npm': 8.0.3_semantic-release@18.0.1
   '@types/node': 16.11.13
@@ -557,15 +557,15 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/exec/6.0.2_semantic-release@18.0.1:
-    resolution: {integrity: sha512-ciaqJTHB1TFtU6C78xrgmoNI9UyfheR9+Bk6Ico7CJ7+ADOEAvUrPBKvz64UCfoWlg+SlKGTVGbFnA509wRUVw==}
+  /@semantic-release/exec/6.0.3_semantic-release@18.0.1:
+    resolution: {integrity: sha512-bxAq8vLOw76aV89vxxICecEa8jfaWwYITw6X74zzlO0mc/Bgieqx9kBRz9z96pHectiTAtsCwsQcUyLYWnp3VQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
-      debug: 4.3.2
+      debug: 4.3.3
       execa: 5.1.1
       lodash: 4.17.21
       parse-json: 5.2.0
