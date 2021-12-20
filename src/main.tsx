@@ -11,6 +11,8 @@ import { logseq as PL } from "../package.json";
 const css = (t, ...args) => String.raw(t, ...args);
 const magicKey = `__${PL.id}__loaded__`;
 
+const isDev = process.env.NODE_ENV === "development";
+
 function main() {
   const pluginId = logseq.baseInfo.id;
   console.info(`#${pluginId}: MAIN`);
@@ -36,8 +38,10 @@ function main() {
 
   const openIconName = "template-plugin-open";
 
-  // @ts-expect-error
-  top[magicKey] = true;
+  if (isDev) {
+    // @ts-expect-error
+    top[magicKey] = true;
+  }
 
   logseq.provideStyle(css`
     div[data-injected-ui=${openIconName}-${pluginId}] {
@@ -65,8 +69,9 @@ function main() {
 }
 
 // @ts-expect-error
-if (top[magicKey]) {
-  logseq.App.relaunch().then(main).catch(console.error);
+if (isDev && top[magicKey]) {
+  // Currently there is no way to reload plugins
+  location.reload();
 } else {
   logseq.ready(main).catch(console.error);
 }
