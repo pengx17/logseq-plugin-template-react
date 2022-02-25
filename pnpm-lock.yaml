@@ -14,7 +14,7 @@ specifiers:
   '@vitejs/plugin-react': 1.2.0
   conventional-changelog-conventionalcommits: 4.6.3
   eslint: 8.9.0
-  eslint-plugin-react: 7.29.0
+  eslint-plugin-react: 7.29.1
   react: ^17.0.2
   react-dom: ^17.0.2
   react-use: ^17.3.1
@@ -43,7 +43,7 @@ devDependencies:
   '@vitejs/plugin-react': 1.2.0
   conventional-changelog-conventionalcommits: 4.6.3
   eslint: 8.9.0
-  eslint-plugin-react: 7.29.0_eslint@8.9.0
+  eslint-plugin-react: 7.29.1_eslint@8.9.0
   semantic-release: 19.0.2
   typescript: 4.5.5
   vite: 2.8.4
@@ -1695,8 +1695,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-react/7.29.0_eslint@8.9.0:
-    resolution: {integrity: sha512-lwbGCO4cEotwl+Wo0zkkjzbhxEzFcG6lv4mpWXfxKzXNZMF5wDEQqykPetB4mi3uTLGVSXxmgVlBMzHTHue6cA==}
+  /eslint-plugin-react/7.29.1_eslint@8.9.0:
+    resolution: {integrity: sha512-WtzRpHMhsOX05ZrkyaaqmLl2uXGqmYooCfBxftJKlkYdsltiufGgfU7uuoHwR2lBam2Kh/EIVID4aU9e3kbCMA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
