@@ -8,7 +8,7 @@ specifiers:
   '@semantic-release/npm': 9.0.1
   '@types/node': 17.0.1
   '@types/react': 17.0.39
-  '@types/react-dom': 17.0.11
+  '@types/react-dom': 17.0.12
   '@typescript-eslint/eslint-plugin': 5.13.0
   '@typescript-eslint/parser': 5.13.0
   '@vitejs/plugin-react': 1.2.0
@@ -37,7 +37,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.2
   '@types/node': 17.0.1
   '@types/react': 17.0.39
-  '@types/react-dom': 17.0.11
+  '@types/react-dom': 17.0.12
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
   '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
   '@vitejs/plugin-react': 1.2.0
@@ -699,8 +699,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/17.0.11:
-    resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
+  /@types/react-dom/17.0.12:
+    resolution: {integrity: sha512-SeJ430ndLI15JtRSHuzotn7AIdUtr8bdk6XW8mMfzjZo3vahRgJGHZqHiI4nAzCHTVG4qC21ObfsHBVUEHcDhg==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
