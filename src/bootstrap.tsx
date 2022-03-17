@@ -11,7 +11,9 @@ import { logseq as PL } from "../package.json";
 const css = (t, ...args) => String.raw(t, ...args);
 
 const pluginId = PL.id;
+
 const isDev = process.env.NODE_ENV === "development";
+const magicKey = `__${pluginId}__loaded__`;
 
 function main() {
   console.info(`#${pluginId}: MAIN`);
@@ -37,11 +39,19 @@ function main() {
 
   const openIconName = "template-plugin-open";
 
+  if (isDev) {
+    // @ts-expect-error
+    top[magicKey] = true;
+  }
+
   logseq.provideStyle(css`
     .${openIconName} {
+      display: inline-flex;
+      align-items: center;
       opacity: 0.55;
-      font-size: 20px;
-      margin-top: 4px;
+      font-weight: 500;
+      padding: 0 5px;
+      position: relative;
     }
 
     .${openIconName}:hover {
@@ -52,21 +62,11 @@ function main() {
   logseq.App.registerUIItem("toolbar", {
     key: openIconName,
     template: `
-      <div data-on-click="show" class="${openIconName}">⚙️</div>
+      <a data-on-click="show"
+         class="${openIconName}"
+         style="opacity: .6; display: inline-flex;">⚙️</a>
     `,
   });
 }
 
-if (isDev && import.meta.hot) {
-  const maybePlugin = top?.LSPluginCore.registeredPlugins.get(pluginId);
-  import.meta.hot.accept(() => {});
-  import.meta.hot.dispose(() => {
-    top?.LSPluginCore.reload(pluginId);
-    console.log(`✨Plugin ${pluginId} reloaded ✨`);
-  });
-  if (!maybePlugin?.loaded) {
-    logseq.ready(main).catch(console.error);
-  }
-} else {
-  logseq.ready(main).catch(console.error);
-}
+logseq.ready(main).catch(console.error);

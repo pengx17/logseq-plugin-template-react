@@ -2,65 +2,70 @@ import { defineConfig, Plugin, ResolvedConfig } from "vite";
 import reactPlugin from "@vitejs/plugin-react";
 import WindiCSS from "vite-plugin-windicss";
 import { writeFile, mkdir } from "fs/promises";
+
 import path from "path";
 
-// Hard-coded for now
-// - assume index is "/src/main.tsx"
-// - assume body has div#app
-// - preamble code is better read from reactRefresh instead
-const devIndexHtmlPlugin: () => Plugin = () => {
+// TODO: maybe publish this Vite plugin?
+const logseqDevPlugin: () => Plugin = () => {
   let config: ResolvedConfig;
+
+  const delay = (ms: number) =>
+    new Promise((resolve) => setTimeout(resolve, ms));
+
+  const tapHtml = async (config: ResolvedConfig) => {
+    await delay(1000);
+    const { default: fetch } = await import("node-fetch");
+    return await (
+      await fetch(`http://${config.server.host}:${config.server.port}`)
+    ).text();
+  };
+
   return {
-    name: "vite:logseq-dev-index-html-plugin",
-    enforce: "pre",
+    name: "vite:logseq-dev-plugin",
+    enforce: "post",
     apply: "serve",
+    config: async (config) => {
+      if (
+        !config.server.host ||
+        !config.server.port ||
+        !config.server.strictPort
+      ) {
+        throw new Error(
+          "logseq-dev-plugin requires server.host, server.port, and server.strictPort to be set"
+        );
+      }
+      config.base = `http://${config.server.host}:${config.server.port}`;
+      return config;
+    },
     configResolved(resolvedConfig) {
       // store the resolved config
       config = resolvedConfig;
     },
-    buildStart: async (opt) => {
-      const template = `
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <base href="http://${config.server.host}:${config.server.port}">
-          <meta charset="UTF-8" />
-          <script type="module" src="/@vite/client"></script>
-          <script type="module">
-            import RefreshRuntime from "/@react-refresh";
-            RefreshRuntime.injectIntoGlobalHook(window);
-            window.$RefreshReg$ = () => {};
-            window.$RefreshSig$ = () => (type) => type;
-            window.__vite_plugin_react_preamble_installed__ = true;
-          </script>
-          <link rel="icon" type="image/svg+xml" href="logo.svg" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>React Plugin</title>
-        </head>
-        <body>
-          <div id="app"></div>
-          <script type="module" src="/src/main.tsx"></script>
-        </body>
-      </html>
-      `;
-      await mkdir(config.build.outDir, { recursive: true });
-      await writeFile(
-        path.resolve(config.build.outDir, "index.html"),
-        template,
-        {
-          encoding: "utf-8",
-        }
-      );
 
-      console.info("Wrote development index.html");
+    buildStart: async () => {
+      tapHtml(config).then(async (html) => {
+        const baseHref = `http://${config.server.host}:${config.server.port}`;
+        const baseString = `<base href="${baseHref}">`;
+
+        const htmlWithBase = html.replace(`<head>`, `<head>${baseString}`);
+
+        await mkdir(config.build.outDir, { recursive: true });
+        await writeFile(
+          path.resolve(config.build.outDir, "index.html"),
+          htmlWithBase,
+          {
+            encoding: "utf-8",
+          }
+        );
+        console.info("Wrote development index.html");
+      });
     },
   };
 };
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactPlugin(), WindiCSS(), devIndexHtmlPlugin()],
-  base: "",
+  plugins: [logseqDevPlugin(), reactPlugin(), WindiCSS()],
   clearScreen: false,
   // Makes HMR available for development
   server: {
