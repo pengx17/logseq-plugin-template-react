@@ -1,3 +1,5 @@
+# [2.0.0](https://github.com/pengx17/logseq-plugin-template-react/compare/v1.0.0...v2.0.0) (2022-03-17)
+
 # 1.0.0 (2021-09-03)
 
 
