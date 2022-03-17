@@ -7,8 +7,7 @@
 - windicss for styling
 - pnpm
 
-### How HMR works?
-
+### How React HMR works?
 See vite.config.ts. There is a custom plugin that will write a dev only index.html.
 The index.html will
 
