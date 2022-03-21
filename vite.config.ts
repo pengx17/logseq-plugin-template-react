@@ -67,6 +67,7 @@ const logseqDevPlugin: () => Plugin = () => {
 export default defineConfig({
   plugins: [logseqDevPlugin(), reactPlugin(), WindiCSS()],
   clearScreen: false,
+  base: "",
   // Makes HMR available for development
   server: {
     cors: true,
