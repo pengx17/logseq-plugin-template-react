@@ -57,16 +57,4 @@ function main() {
   });
 }
 
-if (isDev && import.meta.hot) {
-  const maybePlugin = top?.LSPluginCore.registeredPlugins.get(pluginId);
-  import.meta.hot.accept(() => {});
-  import.meta.hot.dispose(() => {
-    top?.LSPluginCore.reload(pluginId);
-    console.log(`✨Plugin ${pluginId} reloaded ✨`);
-  });
-  if (!maybePlugin?.loaded) {
-    logseq.ready(main).catch(console.error);
-  }
-} else {
-  logseq.ready(main).catch(console.error);
-}
+logseq.ready(main).catch(console.error);
