@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/pengx17/logseq-plugin-template-react/compare/v2.1.0...v2.1.1) (2022-03-24)
+
+
+### Bug Fixes
+
+* revert bot pr ([59527a7](https://github.com/pengx17/logseq-plugin-template-react/commit/59527a7044bec0ddd17a79de54844730e8a591a4))
+
 # [2.1.0](https://github.com/pengx17/logseq-plugin-template-react/compare/v2.0.1...v2.1.0) (2022-03-24)
 
 
