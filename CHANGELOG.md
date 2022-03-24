@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/pengx17/logseq-plugin-template-react/compare/v2.0.1...v2.1.0) (2022-03-24)
+
+
+### Bug Fixes
+
+* remove unused line ([0d69a50](https://github.com/pengx17/logseq-plugin-template-react/commit/0d69a504e4847b4859377ada65766b887920ae38))
+* update logseq-dev-plugin ([36a69f7](https://github.com/pengx17/logseq-plugin-template-react/commit/36a69f7f13789cd86156273dbf8c01fad793b3e1))
+
+
+### Features
+
+* use vite-plugin-logseq ([54aa154](https://github.com/pengx17/logseq-plugin-template-react/commit/54aa154615eafa9af8727d0fc1f3031c5e610aa7))
+
 ## [2.0.1](https://github.com/pengx17/logseq-plugin-template-react/compare/v2.0.0...v2.0.1) (2022-03-21)
 
 
