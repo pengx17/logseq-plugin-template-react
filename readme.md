@@ -2,15 +2,7 @@
 
 ## Features
 
-- plug & play boilerplate
-- develop with HMR, empowered by lightning fast Vite ⚡
+- plug & play boilerplate with properly defined GitHub action defaults
+- develop with HMR, empowered by lightning fast Vite ⚡ with [vite-logseq-plugin](https://github.com/pengx17/vite-plugin-logseq)
 - windicss for styling
 - pnpm
-
-### How React HMR works?
-See vite.config.ts. There is a custom plugin that will write a dev only index.html.
-The index.html will
-
-- change its base to `http://${config.server.host}:${config.server.port}`
-- attach `/@vite/client` (allows error overlay and connect HMR ws)
-- register react-refresh preamble code
