@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/pengx17/logseq-plugin-template-react/compare/v2.0.0...v2.0.1) (2022-03-21)
+
+
+### Bug Fixes
+
+* add missing base for production build ([738ac09](https://github.com/pengx17/logseq-plugin-template-react/commit/738ac09dab9785ccc3564117bc4026cfb4464e9a))
+
+# [2.0.0](https://github.com/pengx17/logseq-plugin-template-react/compare/v1.0.0...v2.0.0) (2022-03-17)
+
 # 1.0.0 (2021-09-03)
 
 
