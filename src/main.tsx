@@ -11,7 +11,6 @@ import { logseq as PL } from "../package.json";
 const css = (t, ...args) => String.raw(t, ...args);
 
 const pluginId = PL.id;
-const isDev = process.env.NODE_ENV === "development";
 
 function main() {
   console.info(`#${pluginId}: MAIN`);
