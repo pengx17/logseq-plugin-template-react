@@ -1,7 +1,7 @@
-import { defineConfig, Plugin, ResolvedConfig } from "vite";
 import reactPlugin from "@vitejs/plugin-react";
-import WindiCSS from "vite-plugin-windicss";
+import { defineConfig } from "vite";
 import logseqDevPlugin from "vite-plugin-logseq";
+import WindiCSS from "vite-plugin-windicss";
 
 // https://vitejs.dev/config/
 export default defineConfig({

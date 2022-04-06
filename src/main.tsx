@@ -2,7 +2,7 @@ import "@logseq/libs";
 import "virtual:windi.css";
 
 import React from "react";
-import ReactDOM from "react-dom";
+import * as ReactDOM from "react-dom/client";
 import App from "./App";
 
 import { logseq as PL } from "../package.json";
@@ -14,11 +14,12 @@ const pluginId = PL.id;
 
 function main() {
   console.info(`#${pluginId}: MAIN`);
-  ReactDOM.render(
+  const root = ReactDOM.createRoot(document.getElementById("app")!);
+
+  root.render(
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
-    document.getElementById("app")
+    </React.StrictMode>
   );
 
   function createModel() {

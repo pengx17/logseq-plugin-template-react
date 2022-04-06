@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "@logseq/libs": "^0.0.1-alpha.35",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-use": "^17.3.2"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
-    "@types/node": "17.0.21",
+    "@types/node": "17.0.23",
     "@types/react": "17.0.43",
     "@types/react-dom": "17.0.14",
     "@typescript-eslint/eslint-plugin": "5.18.0",
