@@ -22,7 +22,7 @@ specifiers:
   semantic-release: 19.0.2
   typescript: 4.6.3
   vite: 2.9.5
-  vite-plugin-logseq: 1.1.1
+  vite-plugin-logseq: 1.1.2
   vite-plugin-windicss: 1.8.4
   windicss: 3.5.1
 
@@ -50,7 +50,7 @@ devDependencies:
   semantic-release: 19.0.2
   typescript: 4.6.3
   vite: 2.9.5
-  vite-plugin-logseq: 1.1.1
+  vite-plugin-logseq: 1.1.2
   vite-plugin-windicss: 1.8.4_vite@2.9.5
   windicss: 3.5.1
 
@@ -4075,8 +4075,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-logseq/1.1.1:
-    resolution: {integrity: sha512-WONgtk3nY2OfEKT/65UDDNI6ioTLUpqdwucaXPSde/YNVp2sUC5ZCWBBJkycvFp4NpJW8XzdMrg9rxpprcfrKQ==}
+  /vite-plugin-logseq/1.1.2:
+    resolution: {integrity: sha512-l5YvoH3K25Zx9eqgoJFug7NfVqSPwq7/FcYYhN1TkdG8ZOiD+c+TAwdCS2dJbGgvx8GmSpbgwSZWgslB+wH53g==}
     dependencies:
       magic-string: 0.26.1
     dev: true
