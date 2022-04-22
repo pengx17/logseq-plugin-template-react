@@ -1,6 +1,6 @@
 {
   "name": "logseq-plugin-template-react",
-  "version": "2.1.1",
+  "version": "0.0.0",
   "main": "dist/index.html",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "^0.0.1-alpha.35",
+    "@logseq/libs": "^0.0.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-use": "^17.3.2"
@@ -19,7 +19,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
-    "@types/node": "17.0.23",
+    "@types/node": "17.0.25",
     "@types/react": "18.0.6",
     "@types/react-dom": "18.0.2",
     "@typescript-eslint/eslint-plugin": "5.20.0",
