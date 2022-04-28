@@ -15,7 +15,7 @@ specifiers:
   conventional-changelog-conventionalcommits: 4.6.3
   eslint: 8.14.0
   eslint-plugin-react: 7.29.4
-  node-fetch: 3.2.3
+  node-fetch: 3.2.4
   react: ^18.0.0
   react-dom: ^18.0.0
   react-use: ^17.3.2
@@ -46,7 +46,7 @@ devDependencies:
   conventional-changelog-conventionalcommits: 4.6.3
   eslint: 8.14.0
   eslint-plugin-react: 7.29.4_eslint@8.14.0
-  node-fetch: 3.2.3
+  node-fetch: 3.2.4
   semantic-release: 19.0.2
   typescript: 4.6.3
   vite: 2.9.6
@@ -2878,8 +2878,8 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-fetch/3.2.3:
-    resolution: {integrity: sha512-AXP18u4pidSZ1xYXRDPY/8jdv3RAozIt/WLNR/MBGZAz+xjtlr90RvCnsvHQRiXyWliZF/CpytExp32UU67/SA==}
+  /node-fetch/3.2.4:
+    resolution: {integrity: sha512-WvYJRN7mMyOLurFR2YpysQGuwYrJN+qrrpHjJDuKMcSPdfFccRUla/kng2mz6HWSBxJcqPbvatS6Gb4RhOzCJw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       data-uri-to-buffer: 4.0.0
