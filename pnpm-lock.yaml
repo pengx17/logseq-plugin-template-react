@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@logseq/libs': ^0.0.5
+  '@logseq/libs': ^0.0.6
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/exec': 6.0.3
   '@semantic-release/git': 10.0.1
@@ -27,7 +27,7 @@ specifiers:
   windicss: 3.5.1
 
 dependencies:
-  '@logseq/libs': 0.0.5
+  '@logseq/libs': 0.0.6
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
   react-use: 17.3.2_react-dom@18.0.0+react@18.0.0
@@ -375,8 +375,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@logseq/libs/0.0.5:
-    resolution: {integrity: sha512-Nn2/35TOOQcai99qIzZ1NQnFPWrLA7Pmpww96axE/sBivRL7WpH0YSu2Uy6fL/slUAI38twL3ZmMT4mUf7xyKA==}
+  /@logseq/libs/0.0.6:
+    resolution: {integrity: sha512-0Fv+Wdno5m0EA9xW6tRRvoKNPAF5nznpi6A1bBjh8aq4XMt7rGvhHbsH+u84/nswCYlce3t2Q/ei8CRK8iWbdw==}
     dependencies:
       csstype: 3.0.8
       debug: 4.3.1
