@@ -15,7 +15,7 @@ specifiers:
   conventional-changelog-conventionalcommits: 4.6.3
   eslint: 8.16.0
   eslint-plugin-react: 7.30.0
-  eslint-plugin-react-hooks: ^4.5.0
+  eslint-plugin-react-hooks: 4.5.0
   node-fetch: 3.2.4
   react: ^18.0.0
   react-dom: ^18.0.0
