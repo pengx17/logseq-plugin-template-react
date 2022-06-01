@@ -16,7 +16,7 @@ specifiers:
   eslint: 8.16.0
   eslint-plugin-react: 7.30.0
   eslint-plugin-react-hooks: 4.5.0
-  node-fetch: 3.2.4
+  node-fetch: 3.2.5
   react: ^18.0.0
   react-dom: ^18.0.0
   react-use: ^17.3.2
@@ -48,7 +48,7 @@ devDependencies:
   eslint: 8.16.0
   eslint-plugin-react: 7.30.0_eslint@8.16.0
   eslint-plugin-react-hooks: 4.5.0_eslint@8.16.0
-  node-fetch: 3.2.4
+  node-fetch: 3.2.5
   semantic-release: 19.0.2
   typescript: 4.7.2
   vite: 2.9.9
@@ -2945,8 +2945,8 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-fetch/3.2.4:
-    resolution: {integrity: sha512-WvYJRN7mMyOLurFR2YpysQGuwYrJN+qrrpHjJDuKMcSPdfFccRUla/kng2mz6HWSBxJcqPbvatS6Gb4RhOzCJw==}
+  /node-fetch/3.2.5:
+    resolution: {integrity: sha512-u7zCHdJp8JXBwF09mMfo2CL6kp37TslDl1KP3hRGTlCInBtag+UO3LGVy+NF0VzvnL3PVMpA2hXh1EtECFnyhQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       data-uri-to-buffer: 4.0.0
