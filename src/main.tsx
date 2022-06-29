@@ -1,9 +1,9 @@
 import "@logseq/libs";
-import "virtual:windi.css";
 
 import React from "react";
 import * as ReactDOM from "react-dom/client";
 import App from "./App";
+import "./index.css";
 
 import { logseq as PL } from "../package.json";
 

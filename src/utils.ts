@@ -1,33 +1,24 @@
-import React, { useState } from "react";
-import { useMountedState } from "react-use";
+import { LSPluginUserEvents } from "@logseq/libs/dist/LSPlugin.user";
+import React from "react";
+
+let _visible = logseq.isMainUIVisible;
+
+function subscribeLogseqEvent<T extends LSPluginUserEvents>(
+  eventName: T,
+  handler: (...args: any) => void
+) {
+  logseq.on(eventName, handler);
+  return () => {
+    logseq.off(eventName, handler);
+  };
+}
+
+const subscribeToUIVisible = (onChange: () => void) =>
+  subscribeLogseqEvent("ui:visible:changed", ({ visible }) => {
+    _visible = visible;
+    onChange();
+  });
 
 export const useAppVisible = () => {
-  const [visible, setVisible] = useState(logseq.isMainUIVisible);
-  const isMounted = useMountedState();
-  React.useEffect(() => {
-    const eventName = "ui:visible:changed";
-    const handler = async ({ visible }: any) => {
-      if (isMounted()) {
-        setVisible(visible);
-      }
-    };
-    logseq.on(eventName, handler);
-    return () => {
-      logseq.off(eventName, handler);
-    };
-  }, []);
-  return visible;
-};
-
-export const useSidebarVisible = () => {
-  const [visible, setVisible] = useState(false);
-  const isMounted = useMountedState();
-  React.useEffect(() => {
-    logseq.App.onSidebarVisibleChanged(({ visible }) => {
-      if (isMounted()) {
-        setVisible(visible);
-      }
-    });
-  }, []);
-  return visible;
+  return React.useSyncExternalStore(subscribeToUIVisible, () => _visible);
 };
