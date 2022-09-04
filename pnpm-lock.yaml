@@ -15,7 +15,7 @@ specifiers:
   autoprefixer: 10.4.8
   conventional-changelog-conventionalcommits: 5.0.0
   eslint: 8.23.0
-  eslint-plugin-react: 7.31.4
+  eslint-plugin-react: 7.31.5
   eslint-plugin-react-hooks: 4.6.0
   postcss: 8.4.16
   react: ^18.2.0
@@ -45,7 +45,7 @@ devDependencies:
   autoprefixer: 10.4.8_postcss@8.4.16
   conventional-changelog-conventionalcommits: 5.0.0
   eslint: 8.23.0
-  eslint-plugin-react: 7.31.4_eslint@8.23.0
+  eslint-plugin-react: 7.31.5_eslint@8.23.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
   postcss: 8.4.16
   semantic-release: 19.0.5
@@ -1823,8 +1823,8 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-plugin-react/7.31.4_eslint@8.23.0:
-    resolution: {integrity: sha512-2ry4HTT+c+hSgpnV2DXj3d5oAmH11KH8HHQwtcfRdq6/+R3nEimvMbwAqK79eb4ZW1/hp8yC5elBusZM6li/Gg==}
+  /eslint-plugin-react/7.31.5_eslint@8.23.0:
+    resolution: {integrity: sha512-y7472VAcqns17rsQUk6tQCnqBi+boYjGdYarX022719+wGd1T4U1fOYJ2T2Trd3Od2q5M92e42zJ2uZOGmWamA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
