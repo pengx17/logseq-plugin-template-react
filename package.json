@@ -26,7 +26,7 @@
     "@vitejs/plugin-react": "2.1.0",
     "autoprefixer": "10.4.9",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.23.0",
+    "eslint": "8.23.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
     "postcss": "8.4.16",
