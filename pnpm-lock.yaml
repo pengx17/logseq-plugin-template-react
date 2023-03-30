@@ -64,8 +64,8 @@ devDependencies:
     specifier: 20.1.3
     version: 20.1.3
   tailwindcss:
-    specifier: 3.3.0
-    version: 3.3.0(postcss@8.4.21)
+    specifier: 3.3.1
+    version: 3.3.1(postcss@8.4.21)
   typescript:
     specifier: 4.9.5
     version: 4.9.5
@@ -4159,8 +4159,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@3.3.0(postcss@8.4.21):
-    resolution: {integrity: sha512-hOXlFx+YcklJ8kXiCAfk/FMyr4Pm9ck477G0m/us2344Vuj355IpoEDB5UmGAsSpTBmr+4ZhjzW04JuFXkb/fw==}
+  /tailwindcss@3.3.1(postcss@8.4.21):
+    resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
