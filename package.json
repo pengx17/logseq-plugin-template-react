@@ -30,7 +30,7 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "postcss": "8.4.23",
-    "semantic-release": "21.0.1",
+    "semantic-release": "21.0.2",
     "tailwindcss": "3.3.2",
     "typescript": "4.9.5",
     "vite": "4.3.3",
