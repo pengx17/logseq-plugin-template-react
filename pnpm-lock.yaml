@@ -29,8 +29,8 @@ devDependencies:
     specifier: 10.0.4
     version: 10.0.4(semantic-release@21.0.7)
   '@types/node':
-    specifier: 18.16.20
-    version: 18.16.20
+    specifier: 18.17.0
+    version: 18.17.0
   '@types/react':
     specifier: 18.2.15
     version: 18.2.15
@@ -75,7 +75,7 @@ devDependencies:
     version: 4.9.5
   vite:
     specifier: 4.4.6
-    version: 4.4.6(@types/node@18.16.20)
+    version: 4.4.6(@types/node@18.17.0)
   vite-plugin-logseq:
     specifier: 1.1.2
     version: 1.1.2
@@ -946,8 +946,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node@18.16.20:
-    resolution: {integrity: sha512-nL54VfDjThdP2UXJXZao5wp76CDiDw4zSRO8d4Tk7UgDqNKGKVEQB0/t3ti63NS+YNNkIQDvwEAF04BO+WYu7Q==}
+  /@types/node@18.17.0:
+    resolution: {integrity: sha512-GXZxEtOxYGFchyUzxvKI14iff9KZ2DI+A6a37o6EQevtg6uO9t+aUZKcaC1Te5Ng1OnLM7K9NVVj+FbecD9cJg==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1121,7 +1121,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.20.12)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.4.6(@types/node@18.16.20)
+      vite: 4.4.6(@types/node@18.17.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4425,7 +4425,7 @@ packages:
       magic-string: 0.26.1
     dev: true
 
-  /vite@4.4.6(@types/node@18.16.20):
+  /vite@4.4.6(@types/node@18.17.0):
     resolution: {integrity: sha512-EY6Mm8vJ++S3D4tNAckaZfw3JwG3wa794Vt70M6cNJ6NxT87yhq7EC8Rcap3ahyHdo8AhCmV9PTk+vG1HiYn1A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4453,7 +4453,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.20
+      '@types/node': 18.17.0
       esbuild: 0.18.11
       postcss: 8.4.27
       rollup: 3.26.2
