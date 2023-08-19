@@ -26,8 +26,8 @@ devDependencies:
     specifier: 10.0.1
     version: 10.0.1(semantic-release@21.0.7)
   '@semantic-release/npm':
-    specifier: 10.0.4
-    version: 10.0.4(semantic-release@21.0.7)
+    specifier: 10.0.5
+    version: 10.0.5(semantic-release@21.0.7)
   '@types/node':
     specifier: 18.17.6
     version: 18.17.6
@@ -900,15 +900,15 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/npm@10.0.4(semantic-release@21.0.7):
-    resolution: {integrity: sha512-6R3timIQ7VoL2QWRkc9DG8v74RQtRp7UOe/2KbNaqwJ815qOibAv65bH3RtTEhs4axEaHoZf7HDgFs5opaZ9Jw==}
+  /@semantic-release/npm@10.0.5(semantic-release@21.0.7):
+    resolution: {integrity: sha512-cJnQ2M5pxJRwZEkb0A/+U3TG4UNmjrrLwV2PxJKljn5OPT0yJB8GzGgWbbKACayvxrT06YdTa4Amtq/piJcOIA==}
     engines: {node: '>=18'}
     peerDependencies:
       semantic-release: '>=20.1.0'
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 4.0.1
-      execa: 7.0.0
+      execa: 8.0.1
       fs-extra: 11.0.0
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
@@ -2138,7 +2138,7 @@ packages:
       merge-stream: 2.0.0
       npm-run-path: 4.0.1
       onetime: 5.1.2
-      signal-exit: 3.0.4
+      signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
 
@@ -2154,6 +2154,21 @@ packages:
       npm-run-path: 5.1.0
       onetime: 6.0.0
       signal-exit: 3.0.7
+      strip-final-newline: 3.0.0
+    dev: true
+
+  /execa@8.0.1:
+    resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
+    engines: {node: '>=16.17'}
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 8.0.1
+      human-signals: 5.0.0
+      is-stream: 3.0.0
+      merge-stream: 2.0.0
+      npm-run-path: 5.1.0
+      onetime: 6.0.0
+      signal-exit: 4.1.0
       strip-final-newline: 3.0.0
     dev: true
 
@@ -2350,6 +2365,11 @@ packages:
   /get-stream@6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
     engines: {node: '>=10'}
+    dev: true
+
+  /get-stream@8.0.1:
+    resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
+    engines: {node: '>=16'}
     dev: true
 
   /get-symbol-description@1.0.0:
@@ -2576,6 +2596,11 @@ packages:
   /human-signals@4.3.0:
     resolution: {integrity: sha512-zyzVyMjpGBX2+6cDVZeFPCdtOtdsxOeseRhB9tkQ6xXmGUNrcnBzdEKPy3VPNYz+4gy1oukVOXcrJCunSyc6QQ==}
     engines: {node: '>=14.18.0'}
+    dev: true
+
+  /human-signals@5.0.0:
+    resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
+    engines: {node: '>=16.17.0'}
     dev: true
 
   /ignore@5.2.0:
@@ -4139,7 +4164,7 @@ packages:
       '@semantic-release/commit-analyzer': 10.0.0(semantic-release@21.0.7)
       '@semantic-release/error': 4.0.0
       '@semantic-release/github': 9.0.0(semantic-release@21.0.7)
-      '@semantic-release/npm': 10.0.4(semantic-release@21.0.7)
+      '@semantic-release/npm': 10.0.5(semantic-release@21.0.7)
       '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.0.7)
       aggregate-error: 4.0.1
       cosmiconfig: 8.0.0
@@ -4219,12 +4244,13 @@ packages:
       object-inspect: 1.12.2
     dev: true
 
-  /signal-exit@3.0.4:
-    resolution: {integrity: sha512-rqYhcAnZ6d/vTPGghdrw7iumdcbXpsk1b8IG/rz+VWV51DM0p7XCtMoJ3qhPLIbp3tvyt3pKRbaaEMZYpHto8Q==}
-    dev: true
-
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
+    dev: true
+
+  /signal-exit@4.1.0:
+    resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
+    engines: {node: '>=14'}
     dev: true
 
   /signale@1.4.0:
