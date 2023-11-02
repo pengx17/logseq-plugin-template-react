@@ -19,7 +19,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "10.0.6",
     "@types/node": "18.18.8",
-    "@types/react": "18.2.33",
+    "@types/react": "18.2.34",
     "@types/react-dom": "18.2.14",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
