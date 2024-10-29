@@ -45,7 +45,7 @@ devDependencies:
     version: 5.62.0(eslint@8.57.1)(typescript@4.9.5)
   '@vitejs/plugin-react':
     specifier: 3.1.0
-    version: 3.1.0(vite@4.5.3)
+    version: 3.1.0(vite@4.5.5)
   autoprefixer:
     specifier: 10.4.20
     version: 10.4.20(postcss@8.4.47)
@@ -74,8 +74,8 @@ devDependencies:
     specifier: 4.9.5
     version: 4.9.5
   vite:
-    specifier: 4.5.3
-    version: 4.5.3(@types/node@18.19.60)
+    specifier: 4.5.5
+    version: 4.5.5(@types/node@18.19.60)
   vite-plugin-logseq:
     specifier: 1.1.2
     version: 1.1.2
@@ -1118,7 +1118,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@3.1.0(vite@4.5.3):
+  /@vitejs/plugin-react@3.1.0(vite@4.5.5):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1129,7 +1129,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.20.12)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.5.3(@types/node@18.19.60)
+      vite: 4.5.5(@types/node@18.19.60)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5218,8 +5218,8 @@ packages:
       magic-string: 0.26.1
     dev: true
 
-  /vite@4.5.3(@types/node@18.19.60):
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
+  /vite@4.5.5(@types/node@18.19.60):
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
