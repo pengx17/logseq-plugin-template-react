@@ -27,7 +27,7 @@
     "autoprefixer": "10.4.20",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.57.1",
-    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react": "7.37.2",
     "eslint-plugin-react-hooks": "4.6.2",
     "postcss": "8.4.47",
     "semantic-release": "21.1.2",
