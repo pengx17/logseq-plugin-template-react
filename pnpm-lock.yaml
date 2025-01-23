@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@logseq/libs':
-    specifier: ^0.0.14
-    version: 0.0.14
+    specifier: ^0.0.17
+    version: 0.0.17
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -646,11 +646,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@logseq/libs@0.0.14:
-    resolution: {integrity: sha512-QcNeVxb4LIvV4Tid0ABZXV7fxYdZHynzLlukSk6Ydkuus+hBzLcjfK15nzybIRbiV7ANqSgTooDZkV/E4WP57Q==}
+  /@logseq/libs@0.0.17:
+    resolution: {integrity: sha512-SkzzAaocmrgeHYrCOaRyEqzPOxw3d0qVEZSrt9qVvXE4tuEgbvEHR8tzI1N5RjgAv+PDWuGPiP7/mhcXHpINEw==}
     dependencies:
       csstype: 3.1.0
       debug: 4.3.4
+      deepmerge: 4.3.1
       dompurify: 2.3.8
       eventemitter3: 4.0.7
       fast-deep-equal: 3.1.3
@@ -1813,6 +1814,11 @@ packages:
   /deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: true
+
+  /deepmerge@4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /define-data-property@1.1.4:
     resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
