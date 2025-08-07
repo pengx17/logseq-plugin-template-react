@@ -32,11 +32,11 @@ devDependencies:
     specifier: 18.19.121
     version: 18.19.121
   '@types/react':
-    specifier: 18.3.21
-    version: 18.3.21
+    specifier: 18.3.23
+    version: 18.3.23
   '@types/react-dom':
     specifier: 18.3.7
-    version: 18.3.7(@types/react@18.3.21)
+    version: 18.3.7(@types/react@18.3.23)
   '@typescript-eslint/eslint-plugin':
     specifier: 5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(typescript@4.9.5)
@@ -987,16 +987,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.7(@types/react@18.3.21):
+  /@types/react-dom@18.3.7(@types/react@18.3.23):
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.21
+      '@types/react': 18.3.23
     dev: true
 
-  /@types/react@18.3.21:
-    resolution: {integrity: sha512-gXLBtmlcRJeT09/sI4PxVwyrku6SaNUj/6cMubjE6T6XdY1fDmBL7r0nX0jbSZPU/Xr0KuwLLZh6aOYY5d91Xw==}
+  /@types/react@18.3.23:
+    resolution: {integrity: sha512-/LDXMQh55EzZQ0uVAZmKKhfENivEvWz6E+EYzh+/MCjMhNsotd+ZHhBGIjFDTi6+fz0OhQQQLbTgdQIxxCsC0w==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.0
