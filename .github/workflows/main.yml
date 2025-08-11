@@ -28,7 +28,7 @@ jobs:
           node-version: "16"
       - uses: pnpm/action-setup@v2.4.1
         with:
-          version: 6.0.2
+          version: 6.35.1
       - run: pnpm install
       - run: pnpm build
       - name: Install zip
