@@ -50,8 +50,8 @@ devDependencies:
     specifier: 10.4.27
     version: 10.4.27(postcss@8.5.8)
   conventional-changelog-conventionalcommits:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 9.3.1
+    version: 9.3.1
   eslint:
     specifier: 8.57.1
     version: 8.57.1
@@ -1680,13 +1680,11 @@ packages:
       q: 1.5.1
     dev: true
 
-  /conventional-changelog-conventionalcommits@5.0.0:
-    resolution: {integrity: sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==}
-    engines: {node: '>=10'}
+  /conventional-changelog-conventionalcommits@9.3.1:
+    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
+    engines: {node: '>=18'}
     dependencies:
       compare-func: 2.0.0
-      lodash: 4.17.21
-      q: 1.5.1
     dev: true
 
   /conventional-changelog-writer@5.0.0:
