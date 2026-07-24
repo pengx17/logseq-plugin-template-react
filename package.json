@@ -14,10 +14,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/npm": "10.0.6",
+    "@semantic-release/changelog": "7.0.0",
+    "@semantic-release/exec": "7.1.0",
+    "@semantic-release/git": "11.0.1",
+    "@semantic-release/npm": "13.1.5",
     "@types/node": "18.19.130",
     "@types/react": "18.3.31",
     "@types/react-dom": "18.3.7",
@@ -30,7 +30,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "4.6.2",
     "postcss": "8.5.19",
-    "semantic-release": "21.1.2",
+    "semantic-release": "25.0.8",
     "tailwindcss": "3.4.19",
     "typescript": "4.9.5",
     "vite": "4.5.14",
